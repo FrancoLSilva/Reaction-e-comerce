@@ -1,5 +1,5 @@
-const ContainerProduct = (name,image,quote) => {
-    <div className='container'>
+const ContainerProduct = (key,name,image,quote) => {
+    <div className='container' key={key}>
       <h3>{name}</h3>;
       <img alt={`personaje: ${name}`} src={image}></img>
       <p>{quote}</p>

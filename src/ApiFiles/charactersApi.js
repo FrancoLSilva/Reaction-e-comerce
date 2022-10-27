@@ -1,3 +1,4 @@
+
 const Characters= [
     {
       "quote": "Oh, so they have Internet on computers now!",
@@ -35,7 +36,6 @@ const Characters= [
       "image": "https://cdn.glitch.com/3c3ffadc-3406-4440-bb95-d40ec8fcde72%2FChiefWiggum.png?1497567511716",
       "characterDirection": "Left"
     },
-    
     {
       "quote": "Oh, wow, windows. I don't think I could afford this place.",
       "character": "Otto",
