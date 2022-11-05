@@ -1,4 +1,4 @@
-
+/* 
 const Characters= [
     {
       "quote": "Oh, so they have Internet on computers now!",
@@ -90,6 +90,21 @@ const Characters= [
       "image": "https://cdn.glitch.com/3c3ffadc-3406-4440-bb95-d40ec8fcde72%2FTroyMcClure.png?1497567511112",
       "characterDirection": "Right"
     },
-];
+]; */
+
+
+const Characters= async () =>{
+  const urlApi='https://thesimpsonsquoteapi.glitch.me/quotes?count=16';
+  const response= await fetch(urlApi);
+  const data= await response.json();
+
+  const products = data.map((product)=>({
+    nombre: product.character,
+    imagen: product.image,
+    info: product.quote,
+  }))
+
+  return products;
+}
 
 export default Characters;
