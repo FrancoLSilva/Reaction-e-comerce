@@ -1,8 +1,8 @@
-import Characters from "../ApiFiles/charactersApi.js";
+import Characters from "../../ApiFiles/charactersApi.js";
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import ContainerProduct from "../Components/Container/Container";
-import Navigation from "../Components/NavBar/navBar";
+import ContainerProduct from "../../Components/Container/Container";
+import Navigation from "../../Components/NavBar/navBar";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 
