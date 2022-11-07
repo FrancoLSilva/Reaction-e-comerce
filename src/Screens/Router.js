@@ -1,6 +1,8 @@
+import Home from './Home/Home';
+
 const Router = () => {
     return(
-        <div></div>
+        <div><Home/></div>
     );
 }
 

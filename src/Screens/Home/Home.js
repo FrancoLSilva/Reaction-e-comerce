@@ -1,12 +1,12 @@
 import Characters from "../../ApiFiles/charactersApi.js";
 import React, { useState, useEffect } from 'react';
-import './App.css';
+import './Home.css';
 import ContainerProduct from "../../Components/Container/Container";
 import Navigation from "../../Components/NavBar/navBar";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 
-function App() {
+function Home() {
 const [filter,setFilter] = useState("");
 const [products,setProducts] =useState([]);
 const getProducts= async ()=>{
@@ -51,4 +51,4 @@ useEffect(()=>{
         );
   }      
 
-export default App;
+export default Home;

@@ -12,7 +12,7 @@ return(
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-            <Nav.Link href="../App.js">Home</Nav.Link>
+            <Nav.Link href="../Home.js">Home</Nav.Link>
             <Nav.Link href="link">Nosotros</Nav.Link>
             <Nav.Link href="link">Contacto</Nav.Link>
             <NavDropdown title="Productos" id="basic-nav-dropdown">
