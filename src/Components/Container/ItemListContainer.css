@@ -1,0 +1,22 @@
+.container-product{
+    background-color: #1C2833;
+    width: 300px;
+    height: 700px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: none;
+}
+.container-product.img{
+    width: 250px;
+    height: 2vh;
+}
+
+.btn-detail{
+    background-color: rgb(77, 73, 73);
+    margin: auto;
+    height: 30px;
+    width: 120px;
+    border: 2px;
+}

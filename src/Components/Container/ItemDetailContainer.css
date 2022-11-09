@@ -1,0 +1,7 @@
+.container-detail-product{
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    background-color: whitesmoke;
+}
